@@ -53,21 +53,9 @@ class NewWorkoutViewController: UIViewController, UITextFieldDelegate {
         return textField
     }()
     
-    private let dateAndRepeatLabel: UILabel = {
-        let label = UILabel()
-        label.text = "Date and repeat"
-        label.textColor = .specialLightBrown
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
+    private let dateAndRepeatLabel = UILabel(text: "Date and repeat")
     
-    private let repsOrTimerLabel: UILabel = {
-        let label = UILabel()
-        label.text = "Reps or timer"
-        label.textColor = .specialLightBrown
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
+    private let repsOrTimerLabel = UILabel(text: "Reps or timer")
     
     private let saveButton: UIButton = {
         let button = UIButton()

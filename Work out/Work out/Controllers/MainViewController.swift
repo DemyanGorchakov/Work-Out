@@ -47,14 +47,7 @@ class MainViewController: UIViewController {
         return button
     }()
     
-    private let workoutToDayLabel: UILabel = {
-        let label = UILabel()
-        label.text = "Workout today"
-        label.textColor = .specialLightBrown
-        label.font = UIFont.systemFont(ofSize: 14)
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
+    private let workoutToDayLabel = UILabel(text: "Workout today")
     
     private let tableView: UITableView = {
         let tableView = UITableView()

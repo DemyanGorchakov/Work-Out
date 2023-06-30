@@ -12,6 +12,7 @@
 		A57F1E962A4E1534001B136B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57F1E952A4E1534001B136B /* MainTabBarController.swift */; };
 		A57F1E982A4E17DD001B136B /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57F1E972A4E17DD001B136B /* StatisticViewController.swift */; };
 		A57F1E9A2A4E182E001B136B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57F1E992A4E182E001B136B /* ProfileViewController.swift */; };
+		A57F1E9E2A4F29CE001B136B /* UILabel + Extencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57F1E9D2A4F29CE001B136B /* UILabel + Extencion.swift */; };
 		A58451D72A0F1AAA00F36977 /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58451D62A0F1AAA00F36977 /* WorkoutTableViewCell.swift */; };
 		A5BBD80F2A092AC3004E587D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5BBD80E2A092AC3004E587D /* Roboto-Medium.ttf */; };
 		A5BBD8112A092AD5004E587D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5BBD8102A092AD5004E587D /* Roboto-Bold.ttf */; };
@@ -35,6 +36,7 @@
 		A57F1E952A4E1534001B136B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		A57F1E972A4E17DD001B136B /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
 		A57F1E992A4E182E001B136B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A57F1E9D2A4F29CE001B136B /* UILabel + Extencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extencion.swift"; sourceTree = "<group>"; };
 		A58451D62A0F1AAA00F36977 /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
 		A5BBD80E2A092AC3004E587D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		A5BBD8102A092AD5004E587D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				A5BBD8122A0977B4004E587D /* UIColor + Extension.swift */,
 				A5BBD8172A0A8D23004E587D /* UIView + Extension.swift */,
 				A5D18CD82A23BDF4007EF5FB /* UIStatickView + Extencion.swift */,
+				A57F1E9D2A4F29CE001B136B /* UILabel + Extencion.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				A5D18CDB2A23CC8F007EF5FB /* NewWorkoutViewController.swift in Sources */,
 				A57F1E962A4E1534001B136B /* MainTabBarController.swift in Sources */,
 				A58451D72A0F1AAA00F36977 /* WorkoutTableViewCell.swift in Sources */,
+				A57F1E9E2A4F29CE001B136B /* UILabel + Extencion.swift in Sources */,
 				A5D18CD92A23BDF4007EF5FB /* UIStatickView + Extencion.swift in Sources */,
 				A5BBD8202A0D352C004E587D /* WeatherView.swift in Sources */,
 			);

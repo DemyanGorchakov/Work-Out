@@ -35,13 +35,7 @@ class RepsOrTimerView: UIView {
         return slider
     }()
 
-    private let chooseRepeatLabel: UILabel = {
-        let label = UILabel()
-        label.text = "Choose repeat of timer"
-        label.textColor = .specialLightBrown
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
+    private let chooseRepeatLabel = UILabel(text: "Choose repeat of timer")
     
     private let repsLabel: UILabel = {
        let label = UILabel()
